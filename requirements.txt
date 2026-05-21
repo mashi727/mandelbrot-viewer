@@ -1,0 +1,11 @@
+# Core dependencies / コア依存パッケージ
+numpy>=1.24
+numba>=0.58
+PySide6>=6.6
+pyqtgraph>=0.13
+colorcet>=3.0
+
+# Optional / 任意:
+#   Dark theme. The app falls back to the default theme if this is absent.
+#   ダークテーマ。未インストールでも標準テーマで動作します。
+# pyqtdarktheme>=0.1.7

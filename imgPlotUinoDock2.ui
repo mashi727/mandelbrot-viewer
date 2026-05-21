@@ -1,0 +1,2515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1753</width>
+    <height>1454</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QLabel" name="label_3">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>40</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>40</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>20</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>H(Re) :</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignmentFlag::AlignLeading|Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_h11">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>80</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>20</pointsize>
+           </font>
+          </property>
+          <property name="inputMethodHints">
+           <set>Qt::InputMethodHint::ImhDigitsOnly</set>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+          </property>
+          <property name="decimals">
+           <number>1</number>
+          </property>
+          <property name="minimum">
+           <double>-10.000000000000000</double>
+          </property>
+          <property name="maximum">
+           <double>10.000000000000000</double>
+          </property>
+          <property name="singleStep">
+           <double>0.100000000000000</double>
+          </property>
+          <property name="stepType">
+           <enum>QAbstractSpinBox::StepType::DefaultStepType</enum>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_h12">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>80</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>20</pointsize>
+           </font>
+          </property>
+          <property name="inputMethodHints">
+           <set>Qt::InputMethodHint::ImhDigitsOnly</set>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+          </property>
+          <property name="decimals">
+           <number>1</number>
+          </property>
+          <property name="maximum">
+           <double>10.000000000000000</double>
+          </property>
+          <property name="singleStep">
+           <double>0.100000000000000</double>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_2">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>40</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>20</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>V(Im) :</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_v11">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>80</width>
+            <height>10</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>20</pointsize>
+           </font>
+          </property>
+          <property name="inputMethodHints">
+           <set>Qt::InputMethodHint::ImhDigitsOnly</set>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+          </property>
+          <property name="decimals">
+           <number>1</number>
+          </property>
+          <property name="minimum">
+           <double>-10.000000000000000</double>
+          </property>
+          <property name="maximum">
+           <double>10.000000000000000</double>
+          </property>
+          <property name="singleStep">
+           <double>0.100000000000000</double>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_v12">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>80</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>20</pointsize>
+           </font>
+          </property>
+          <property name="inputMethodHints">
+           <set>Qt::InputMethodHint::ImhDigitsOnly</set>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+          </property>
+          <property name="decimals">
+           <number>1</number>
+          </property>
+          <property name="maximum">
+           <double>10.000000000000000</double>
+          </property>
+          <property name="singleStep">
+           <double>0.100000000000000</double>
+          </property>
+          <property name="stepType">
+           <enum>QAbstractSpinBox::StepType::DefaultStepType</enum>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_4">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Orientation::Horizontal</enum>
+          </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::Policy::Expanding</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_11">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_5">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_6">
+            <item>
+             <widget class="QLabel" name="label_9">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>30</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>30</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>20</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string>Res1:</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignmentFlag::AlignLeading|Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_Res1">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>40</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>40</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>10</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_8">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>45</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>45</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>20</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>n_max1</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit_n_max1">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>60</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>30</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="baseSize">
+             <size>
+              <width>30</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>20</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="cmap1">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>120</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>80</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="baseSize">
+             <size>
+              <width>90</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>20</pointsize>
+             </font>
+            </property>
+            <property name="currentText">
+             <string>CET_L19</string>
+            </property>
+            <item>
+             <property name="text">
+              <string>CET_L19</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_C5s</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_C1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_C1s</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_C9</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_C9s</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_C2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_C8</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_C8s</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_CBC1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_CBC2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_C6</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_C6s</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_CBTC1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_CBTC2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_C3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_C3s</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_C4</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_C4s</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_C7</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_C7s</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_D4</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_D6</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_D13</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_D1A</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_D1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_D9</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_D10</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>diverging_gkr_60_10_c40</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_D3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_D2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_D12</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>diverging_isoluminant_cjm_75_c24</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_D11</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_D8</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_D7</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_CBD2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_CBD1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_R3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_CBTD1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>glasbey_bw</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>glasbey</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>glasbey_cool</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>glasbey_dark</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>glasbey_light</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>glasbey_category10</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>glasbey_hv</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_I1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_I2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_I3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>bgy</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>linear_bgyw_15_100_c67</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>bgyw</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_L9</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_L12</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_L7</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>bmw</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_L8</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>bmy</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_L10</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_L11</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_L1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_L2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_L6</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_L20</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>kbgyw</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_L16</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_L5</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_L4</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>linear_kry_5_95_c72</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>linear_kry_5_98_c75</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_L3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>linear_kryw_0_100_c64</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>linear_kryw_0_100_c67</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_CBL1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_CBL3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_CBL2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_CBL4</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_L15</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_L14</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_L13</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_CBTL3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_CBTL2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_CBTL1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_CBTL4</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_L19</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_L17</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_L18</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_R4</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_R2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>rainbow</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CET_R1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>rainbow_bgyrm_35_85_c71</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_3">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Orientation::Horizontal</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Policy::Expanding</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QSplitter" name="splitter">
+        <property name="orientation">
+         <enum>Qt::Orientation::Horizontal</enum>
+        </property>
+        <widget class="QWidget" name="layoutWidget">
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item>
+           <widget class="GraphicsLayoutWidget" name="graphicsLayoutWidget_gw1">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>300</width>
+              <height>300</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="GraphicsLayoutWidget" name="graphicsLayoutWidget_gw2">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>300</width>
+              <height>300</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="horizontalLayoutWidget">
+         <layout class="QHBoxLayout" name="horizontalLayout_10">
+          <item>
+           <widget class="GraphicsLayoutWidget" name="graphicsLayoutWidget_gw3">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>600</width>
+              <height>600</height>
+             </size>
+            </property>
+            <property name="sizeIncrement">
+             <size>
+              <width>0</width>
+              <height>10</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_9">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_7">
+            <item>
+             <widget class="QLabel" name="label">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>20</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string>h2x, v2x:</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_h2x">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>400</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_8">
+              <item>
+               <widget class="QLabel" name="label_11">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>20</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>h3x, v3x:</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_h3x">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>400</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_5">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="orientation">
+               <enum>Qt::Orientation::Horizontal</enum>
+              </property>
+              <property name="sizeType">
+               <enum>QSizePolicy::Policy::Expanding</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_4">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_2">
+            <item>
+             <widget class="QLabel" name="label_7">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>60</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>45</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>20</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string>n_max2</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="lineEdit_n_max2">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>40</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>30</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="baseSize">
+               <size>
+                <width>30</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>20</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_4">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>60</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>20</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string>Res2:</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="lineEdit_res2">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>60</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>20</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="cmap2">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>150</width>
+                <height>20</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>80</width>
+                <height>20</height>
+               </size>
+              </property>
+              <property name="baseSize">
+               <size>
+                <width>90</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>20</pointsize>
+               </font>
+              </property>
+              <property name="currentText">
+               <string>CET_L19</string>
+              </property>
+              <item>
+               <property name="text">
+                <string>CET_L19</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_C5s</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_C1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_C1s</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_C9</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_C9s</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_C2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_C8</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_C8s</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_CBC1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_CBC2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_C6</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_C6s</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_CBTC1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_CBTC2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_C3</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_C3s</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_C4</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_C4s</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_C7</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_C7s</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_D4</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_D6</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_D13</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_D1A</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_D1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_D9</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_D10</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>diverging_gkr_60_10_c40</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_D3</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_D2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_D12</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>diverging_isoluminant_cjm_75_c24</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_D11</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_D8</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_D7</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_CBD2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_CBD1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_R3</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_CBTD1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>glasbey_bw</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>glasbey</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>glasbey_cool</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>glasbey_dark</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>glasbey_light</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>glasbey_category10</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>glasbey_hv</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_I1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_I2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_I3</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>bgy</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>linear_bgyw_15_100_c67</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>bgyw</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_L9</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_L12</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_L7</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>bmw</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_L8</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>bmy</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_L10</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_L11</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_L1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_L2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_L6</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_L20</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>kbgyw</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_L16</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_L5</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_L4</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>linear_kry_5_95_c72</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>linear_kry_5_98_c75</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_L3</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>linear_kryw_0_100_c64</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>linear_kryw_0_100_c67</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_CBL1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_CBL3</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_CBL2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_CBL4</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_L15</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_L14</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_L13</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_CBTL3</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_CBTL2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_CBTL1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_CBTL4</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_L19</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_L17</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_L18</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_R4</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_R2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>rainbow</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_R1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>rainbow_bgyrm_35_85_c71</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="orientation">
+               <enum>Qt::Orientation::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_3">
+            <item>
+             <spacer name="horizontalSpacer_2">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>10</pointsize>
+               </font>
+              </property>
+              <property name="orientation">
+               <enum>Qt::Orientation::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_6">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>60</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>45</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>20</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string>n_max3</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="lineEdit_n_max3">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>40</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>30</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="baseSize">
+               <size>
+                <width>30</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>20</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_5">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>20</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string>Res3:</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="lineEdit_res3">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>60</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>20</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="cmap3">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>150</width>
+                <height>20</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>80</width>
+                <height>20</height>
+               </size>
+              </property>
+              <property name="baseSize">
+               <size>
+                <width>90</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>20</pointsize>
+               </font>
+              </property>
+              <property name="currentText">
+               <string>CET_L19</string>
+              </property>
+              <item>
+               <property name="text">
+                <string>CET_L19</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_C5s</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_C1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_C1s</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_C9</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_C9s</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_C2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_C8</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_C8s</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_CBC1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_CBC2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_C6</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_C6s</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_CBTC1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_CBTC2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_C3</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_C3s</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_C4</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_C4s</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_C7</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_C7s</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_D4</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_D6</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_D13</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_D1A</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_D1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_D9</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_D10</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>diverging_gkr_60_10_c40</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_D3</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_D2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_D12</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>diverging_isoluminant_cjm_75_c24</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_D11</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_D8</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_D7</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_CBD2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_CBD1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_R3</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_CBTD1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>glasbey_bw</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>glasbey</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>glasbey_cool</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>glasbey_dark</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>glasbey_light</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>glasbey_category10</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>glasbey_hv</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_I1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_I2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_I3</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>bgy</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>linear_bgyw_15_100_c67</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>bgyw</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_L9</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_L12</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_L7</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>bmw</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_L8</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>bmy</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_L10</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_L11</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_L1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_L2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_L6</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_L20</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>kbgyw</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_L16</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_L5</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_L4</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>linear_kry_5_95_c72</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>linear_kry_5_98_c75</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_L3</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>linear_kryw_0_100_c64</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>linear_kryw_0_100_c67</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_CBL1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_CBL3</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_CBL2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_CBL4</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_L15</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_L14</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_L13</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_CBTL3</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_CBTL2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_CBTL1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_CBTL4</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_L19</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_L17</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_L18</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_R4</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_R2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>rainbow</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>CET_R1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>rainbow_bgyrm_35_85_c71</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="quitButton_2">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>20</pointsize>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>Quit</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1753</width>
+     <height>62</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>GraphicsLayoutWidget</class>
+   <extends>QGraphicsView</extends>
+   <header location="global">pyqtgraph</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>quitButton_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1587</x>
+     <y>941</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1523</x>
+     <y>973</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

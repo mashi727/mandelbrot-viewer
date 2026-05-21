@@ -1,0 +1,29 @@
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Backup files
+*.bak
+*.orig
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Editors / IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
