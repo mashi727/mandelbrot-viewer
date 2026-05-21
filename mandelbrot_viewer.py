@@ -27,8 +27,9 @@ from imgPlotUinoDock2 import Ui_MainWindow
 # 座標を高精度で扱うため Decimal の精度を 50 桁に設定する。
 getcontext().prec = 50
 
-# Numba の並列バックエンドを明示する。import numba より前に設定する必要がある。
-os.environ.setdefault("NUMBA_THREADING_LAYER", "workqueue")
+# Numba の並列バックエンドに workqueue を強制する（OpenMP/TBB 非依存で移植性が高い）。
+# import numba より前に、かつ既存の環境変数を上書きする形で設定する必要がある。
+os.environ["NUMBA_THREADING_LAYER"] = "workqueue"
 import numba  # noqa: E402  (環境変数を設定してから import する)
 
 

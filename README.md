@@ -9,9 +9,10 @@ high precision with Python's `decimal.Decimal`.
 ビューアです。GUI は **PySide6** + **pyqtgraph**、集合の計算は **Numba** で
 JIT/並列化し、座標は `decimal.Decimal` により高精度で保持します。
 
-<!-- スクリーンショットを docs/screenshot.png に置き、下の行のコメントを外してください。 -->
-<!-- Add a screenshot at docs/screenshot.png and uncomment the line below. -->
-<!-- ![screenshot](docs/screenshot.png) -->
+![Mandelbrot Viewer screenshot](docs/screenshot.png)
+
+GW1 (左上/top-left): 全体表示 + ROI1 / GW2 (左下/bottom-left): ROI1 拡大 + ROI2 /
+GW3 (右/right): ROI2 拡大
 
 ## Features / 特徴
 
