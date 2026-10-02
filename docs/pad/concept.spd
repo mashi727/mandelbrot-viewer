@@ -1,0 +1,19 @@
+マンデルブロ集合を@段階的に深く拡大する
+	:comment 問題：深い拡大は遅く、桁も落ちる
+	:comment 方針：3 段の連動ビューと高精度座標
+	アプリを起動する@$ python mandelbrot_viewer.py
+	:while 人が拡大を続けるか
+		:switch 人がどこを操作するか
+		:case GW1 の ROI1
+			ROI2 を中央に置き直し@GW2 を再計算する
+		:case GW2 の ROI2
+			GW3 を ROI2 の@範囲で再計算する
+		:case GW3 のホイール・ドラッグ
+			:if 範囲が 1e-12 未満か
+				直前の範囲に戻す
+			:else
+				正方形に整えて@GW3 を再計算する
+		:case n_max・色などの欄
+			そのビューを再描画する
+	:comment 再計算は Numba 並列で@内部の点を早期に除く
+	:terminal 深部まで拡大した集合の図

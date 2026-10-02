@@ -14,6 +14,15 @@ JIT/並列化し、座標は `decimal.Decimal` により高精度で保持しま
 GW1 (左上/top-left): 全体表示 + ROI1 / GW2 (左下/bottom-left): ROI1 拡大 + ROI2 /
 GW3 (右/right): ROI2 拡大
 
+## 考え方 / Concept
+
+何が問題で、それをどう解いているかを PAD（問題分析図）で示します。各段の詳細は下の各節を参照してください。
+The PAD (Problem Analysis Diagram) below shows the problem and how the viewer solves it.
+
+<img src="docs/pad/concept.png" alt="考え方の PAD。マンデルブロ集合を段階的に深く拡大するため、GW1 の ROI1・GW2 の ROI2・GW3 のマウス操作に応じて下流のビューを再計算し、精度限界に達したら直前の範囲に戻す" width="100%">
+
+<sub>図の元は [`docs/pad/concept.spd`](docs/pad/concept.spd)。[padkit](https://github.com/mashi727/padkit) で検査・描画しています。</sub>
+
 ## Features / 特徴
 
 - **Three linked views / 3 連動ビュー**
